@@ -1,0 +1,39 @@
+.image{
+  box-sizing: border-box;
+  height:100vh;
+  width:96vw;
+  box-sizing: border-box;
+  
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  
+
+/* 
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 2em; */
+  
+}
+img{
+
+  height: 200px;
+  width: 350px;
+ margin-top: 3em;
+
+ border-radius: 3px;
+}
+
+img:hover {
+  transform: scale(0.8) rotate(-10deg);
+  border-radius: 20px;
+  box-shadow: 0 32px 75px rgb(68,77,136,0.2);
+  
+}
+body{
+
+  justify-content: center;
+  text-align: center;
+}
